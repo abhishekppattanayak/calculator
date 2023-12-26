@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Rubik+Doodle+Shadow&family=Wellfleet&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", Roboto, sans-serif ;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px black;
+    /* border: 2px white solid; */
+}
+
+footer > a, footer > a:visited {
+    text-decoration: none;
+}
+
+body {
+    height: 100svh;
+    background-color: #232323;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+main {
+    width: 360px;
+    margin: auto 0;
+    background-attachment: gray;
+    border: 10px solid gray;
+}
+
+main > div {
+    width: 100%;
+    aspect-ratio: 4/1;
+    background-color: white;
+}
+
+main > div > button {
+    color: black;
+    padding: 4px 12px;
+}
+
+main > div > button.operators {
+    background-color: #ff9;
+}
+
+main > div > button.operators:hover {
+    background-color: #ff7;
+}
+
+main > div > button.operators:active {
+    background-color: #ff5;
+}
+
+.numpad {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: gray;
+}
+
+.numpad > button {
+    width:25%;
+    aspect-ratio: 1;
+    font-size: 1.7rem;
+}
+
+.numpad > .action {
+    width: 50%;
+    aspect-ratio: 2;
+    background-color: #f99;
+}
+
+.numpad > .action:hover {
+    background-color: #f77;
+}
+
+.numpad > .action:active {
+    background-color: #f55;
+}
+.equal  {
+    background-color: #a7e0a7;
+}
+
+.equal:hover  {
+    background-color: #88e188;
+}
+
+.equal:active {
+    background-color: #6de16d;
+}
+
+footer {
+    margin-bottom: 12px;
+}

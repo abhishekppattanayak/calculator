@@ -14,3 +14,5 @@ const operate = (a, b, c) => {
     if(c==='*') return mul(a, b)
     if(c==='/') return div(a, b)
 }
+
+document.querySelector('footer > span').textContent = `Copyright © ${new Date().getFullYear()} `;
