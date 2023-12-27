@@ -9,31 +9,30 @@
 </head>
 <body>
     <main>
-        <div></div>
+        <div>  </div>
         <div class="numpad">
-            <button class="action">Clear</button>
+            <button onclick="clearDisplay()" class="action">Clear</button>
             <button class="action">Delete</button>
 
-
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
+            <button onclick="number(this)">7</button>
+            <button onclick="number(this)">8</button>
+            <button onclick="number(this)">9</button>
+            <button onclick="operation(this)" class="operators">/</button>
             
-            <button class="operators">/</button>
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
+            <button onclick="number(this)">4</button>
+            <button onclick="number(this)">5</button>
+            <button onclick="number(this)">6</button>
+            <button onclick="operation(this)" class="operators">*</button>
             
-            <button class="operators">*</button>
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
+            <button onclick="number(this)">1</button>
+            <button onclick="number(this)">2</button>
+            <button onclick="number(this)">3</button>
+            <button onclick="operation(this)" class="operators">-</button>
             
-            <button class="operators">-</button>
             <button>.</button>
-            <button>0</button>
-            <button class="equal">=</button>
-            <button class="operators">+</button>
+            <button onclick="number(this)">0</button>
+            <button onclick="equal()" class="equal">=</button>
+            <button onclick="operation(this)" class="operators">+</button>
         </div>
     </main>
     <footer><span></span><a href="https://github.com/malginisus/">abhishek</a></footer>

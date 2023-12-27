@@ -21,21 +21,22 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
-
 }
 
 main {
     width: 360px;
     margin: auto 0;
     background-attachment: gray;
-    border: 10px solid gray;
+    border: 16px solid gray;
 }
 
 main > div {
     width: 100%;
     aspect-ratio: 4/1;
     background-color: white;
+    color: black;
 }
+
 
 main > div > button {
     color: black;
@@ -65,6 +66,7 @@ main > div > button.operators:active {
     width:25%;
     aspect-ratio: 1;
     font-size: 1.7rem;
+    /* margin: 12px 0; */
 }
 
 .numpad > .action {
